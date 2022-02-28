@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-page-name {
+    font-weight: bold;
+    position: relative;
+    right: 1rem;
+}
+
+.btn-navbar {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.circle {
+    border-style: solid;
+    border-width: 8px;
+    border-radius: 50%;
+    width: 18rem;
+    height: 18rem;
+}
+
+.circle-heart {
+    position: relative;
+    width: 3rem;
+    left: 7rem;
+    top: -3rem;
+}
+
+.circle-number {
+    font-size: 98px;
+    position: relative;
+    top: 4rem;
+    left: 2rem;
+    color: #A71C1C;
+}
+
+.circle-bpm {
+    font-size: 28px;
+    position: relative;
+    color: #A71C1C;
+    right: 4rem;
+    top: 7.5rem;
+}
+
+.card-body {
+    min-width: 5rem;
+    text-align: center;
+}
+
+.card-img {
+    max-width: 8rem;
+    margin: 0 auto;
+}
+
+.card-text {
+    font-size: 36px;
+}
+
+.bg-dark-blue {
+    background: #1B4767;
+}
+
+.bg-light-blue {
+    background: #347eb3;
+}
