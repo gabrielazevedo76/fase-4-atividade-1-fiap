@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
+    min-height: 100vh;
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
+
+hr {
+  margin: 0;
+}
+
 .navbar-page-name {
     font-weight: bold;
     position: relative;
@@ -53,9 +60,29 @@ body {
     text-align: center;
 }
 
+.card-home:hover {
+    border-color: white;
+    border-width: 0.25rem;
+    background-color: black;
+    filter: invert(1);
+}
+
+.card-header-peso h5, .card-body h5 {
+  margin-bottom: 0 !important;
+}
+
+.peso-list-group-item {
+    margin-right: 1.5rem;
+}
+
 .card-img {
     max-width: 8rem;
     margin: 0 auto;
+}
+
+.img-peso-list-group-item img {
+    padding-left: 0.5rem;
+    max-width: 2rem;
 }
 
 .card-text {
@@ -68,4 +95,34 @@ body {
 
 .bg-light-blue {
     background: #347eb3;
+}
+
+.footer-alimentacao {
+  position: absolute;
+  bottom: 0;
+  width:100%;
+}
+
+@media (max-width: 768px){
+
+.card-text {
+    font-size: 1.5rem !important;
+  }
+
+.card {
+    padding: 0;
+    min-width: 15rem !important;
+  }
+}
+
+@media (max-width: 576px){
+
+.card-text {
+    font-size: 1rem !important;
+  }
+
+.card {
+    padding: 0;
+    min-width: 10rem !important;
+  }
 }
