@@ -12,7 +12,7 @@
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
 
-  <link href="./style.css" rel="stylesheet" />
+  <link href="./css/style.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -20,7 +20,7 @@
     <header class="bg-light-blue navbar p-3">
       <div class="container-fluid d-flex justify-content-between">
         <div class="brand-logo">
-          <a class="navbar-brand link-light" href="#">Health Track</a>
+          <a class="navbar-brand link-light" href="home.html">Health Track</a>
         </div>
         <div class="navbar-text">
           <a href="#" class="navbar-page-name navbar-brand link-light text-decoration-none">Adicionar Alimento</a>
@@ -38,18 +38,6 @@
               <a class="nav-link link-light" href="./alimentacao.html">Alimentação</a>
               <a class="nav-link link-light" href="#">Atividades</a>
               <a class="nav-link link-light" href="#">Perfil</a>
-            </li>
-            <li class="nav-item dropdown">
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
             </li>
           </ul>
         </div>
@@ -75,10 +63,12 @@
         </div>
       </form>
       <div class="card text-white bg-light-blue mt-5 align-self-center" style="max-width: 12rem; min-width: 10rem">
-        <div class="card-body">
-          <img class="card-img d-block" src="./images/adicionar.png" alt="" style="max-width: 3rem;" />
-          <span class="card-text">Adicionar</span>
-        </div>
+        <a href="alimentacao.html" class="text-decoration-none link-light">
+          <div class="card-body">
+            <img class="card-img d-block" src="./images/adicionar.png" alt="" style="max-width: 3rem;" />
+            <span class="card-text">Adicionar</span>
+          </div>
+        </a>
       </div>
     </main>
     <footer class="footer-alimentacao bg-light-blue text-center text-white">
